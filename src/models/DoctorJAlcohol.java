@@ -16,7 +16,18 @@ public class DoctorJAlcohol implements Alcohol {
 		this.alcoholPrcnt = "70%";
 		this.contentAmnt = "500 ml";
 		this.description = "";
-		this.picture = "DoctorJ.jpg";
+		this.picture = "doctorj.jpg";
+	}
+	
+	public DoctorJAlcohol(String brand, String price, String alcoholPrcnt,
+			String contentAmnt, String description, String picture) {
+		super();
+		this.brand = brand;
+		this.price = price;
+		this.alcoholPrcnt = alcoholPrcnt;
+		this.contentAmnt = contentAmnt;
+		this.description = description;
+		this.picture = picture;
 	}
 
 	@Override

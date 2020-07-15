@@ -14,8 +14,20 @@ public class BiogenicAlcohol extends Object implements Alcohol {
 		this.alcoholPrcnt = "70%";
 		this.contentAmnt = "75 ml";
 		this.description = "";
-		this.picture = "Biogenic.jpg";
+		this.picture = "biogenic.jpg";
 	}
+
+	public BiogenicAlcohol(String brand, String price, String alcoholPrcnt,
+			String contentAmnt, String description, String picture) {
+		super();
+		this.brand = brand;
+		this.price = price;
+		this.alcoholPrcnt = alcoholPrcnt;
+		this.contentAmnt = contentAmnt;
+		this.description = description;
+		this.picture = picture;
+	}
+
 
 	@Override
 	public String getBrand() {

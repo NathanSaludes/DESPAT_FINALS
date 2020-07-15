@@ -13,7 +13,7 @@ public class AlcoholFactory extends AbstractFactory {
 			case "doctorj":
 				alco = new DoctorJAlcohol();
 				break;
-			case "Cleene":
+			case "cleene":
 				alco = new CleeneAlcohol();
 				break;
 		}
